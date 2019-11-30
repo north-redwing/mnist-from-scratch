@@ -60,20 +60,20 @@ optional arguments:
 
 
 ## Results
-- Accuracy
+- Accuracy  
 ![sample_noise0%_acc_graph.jpg](https://qiita-image-store.s3.amazonaws.com/0/324488/8a74dd11-1a49-7066-4898-322ca8b04d45.jpeg)
 
-- Loss
+- Loss  
 ![sample_noise0%_loss_graph.jpg](https://qiita-image-store.s3.amazonaws.com/0/324488/aa916fd3-998f-ccb6-1b22-321055853555.jpeg)
 
-- Confusion Matrix
+- Confusion Matrix  
 ![sample_noise0%_cm_graph.jpg](https://qiita-image-store.s3.amazonaws.com/0/324488/b32c62de-1c2b-376d-af21-65bd347a2fae.jpeg)
 
-- Accuracy with variable noise percentage
+- Accuracy with variable noise percentage  
 ![sample_compare.jpg](https://qiita-image-store.s3.amazonaws.com/0/324488/53ce5869-b738-b4d9-fc40-78f528bf0896.jpeg)
 
-- Visualization of W1
+- Visualization of W1  
 ![W1.png](https://qiita-image-store.s3.amazonaws.com/0/324488/04889792-3d51-7662-5ffc-2cafb3004352.png)
 
-- Visualization of how W1 affects each number
+- Visualization of how W1 affects each number  
 ![W2.png](https://qiita-image-store.s3.amazonaws.com/0/324488/85fe5a18-5b96-f6d4-e2b8-21399326eeef.png)
