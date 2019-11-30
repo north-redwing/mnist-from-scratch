@@ -69,7 +69,7 @@ optional arguments:
 - Confusion Matrix  
 ![sample_noise0%_cm_graph.jpg](https://qiita-image-store.s3.amazonaws.com/0/324488/b32c62de-1c2b-376d-af21-65bd347a2fae.jpeg)
 
-- Accuracy with variable noise percentage  
+- Accuracy with variable noise percentages  
 ![sample_compare.jpg](https://qiita-image-store.s3.amazonaws.com/0/324488/53ce5869-b738-b4d9-fc40-78f528bf0896.jpeg)
 
 - Visualization of W1  
