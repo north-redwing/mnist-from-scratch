@@ -41,7 +41,7 @@ $ python3 ~/mnist-from-scratch/src/learning.py sample 4000 0.1 100 0 -debug -sav
 ```
 
 Here is keywords arguments and optional arguments.  
-Note:
+Note:  
 You will train on MNIST dataset with noise from 1% to noise_per_max, every 5%.  
 If noise_per_max is nonzero, then you will train on MNIST dataset without noise.
 
