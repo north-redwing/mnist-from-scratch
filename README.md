@@ -25,7 +25,7 @@ $ wget http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz
 $ wget http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz
 $ wget http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz
 ```
-then you will get MNIST dataset as byte extension.
+then you will get MNIST dataset as a byte extension.
 
 
 ### Convert to NumPy array
@@ -37,7 +37,7 @@ python ~/mnist-from-scratch/src/make_arr.py
 ### Learning
 Execute the script,
 ```
-$ python3 ~/mnist-from-scratch/src/learning.py sample 4000 0.1 100 0 -debug -save
+$ python ~/mnist-from-scratch/src/learning.py sample 4000 0.1 100 0 -debug -save
 ```
 
 Here is keywords arguments and optional arguments.  
