@@ -8,7 +8,7 @@ This is based on [oreilly-japan/deep-learning-from-scratch](https://github.com/o
 ## Usage
 ### MNIST download
 In `~/mnist-from-scratch/data/ubyte/` ,  
-if you use macOS, 
+if you use macOS, Execute the script,
 
 ```
 $ curl -O http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz
@@ -18,7 +18,7 @@ $ curl -O http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz
 ```
 
 
-if you use Linux, 
+if you use Linux, Execute the script,
 ```
 $ wget http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz
 $ wget http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz
@@ -35,12 +35,12 @@ python ~/mnist-from-scratch/src/make_arr.py
 ```
 
 ### Learning
-
+Execute the script,
 ```
 $ python3 ~/mnist-from-scratch/src/learning.py sample 4000 0.1 100 0 -debug -save
 ```
 
-Here is keywords arguments and optional arguments.
+Here is keywords arguments and optional arguments.  
 Note:
 You will train on MNIST dataset with noise from 1% to noise_per_max, every 5%.  
 If noise_per_max is nonzero, then you will train on MNIST dataset without noise.
