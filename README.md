@@ -1,12 +1,13 @@
 
-# MNIST from-scratch
+# mnist-from-scratch
 
 NumPy implementation of a begginner classification task on [MNIST](http://yann.lecun.com/exdb/mnist/) dataset with a 3 Layers Neural Network model.  
+I tested this experiments for understanding black box of deep neural networks.  
 This is based on [oreilly-japan/deep-learning-from-scratch](https://github.com/oreilly-japan/deep-learning-from-scratch).
 
 ## Usage
 ### MNIST download
-In `~/mnist-from-scratch/data/ubyte/` ,
+In `~/mnist-from-scratch/data/ubyte/` ,  
 if you use macOS, 
 
 ```
