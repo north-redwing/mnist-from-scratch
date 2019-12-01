@@ -25,7 +25,7 @@ $ wget http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz
 $ wget http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz
 $ wget http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz
 ```
-then you will get MNIST dataset as byte extension.
+then you will get MNIST dataset as a byte extension.
 
 
 ### Convert to NumPy array
@@ -37,7 +37,7 @@ python ~/mnist-from-scratch/src/make_arr.py
 ### Learning
 Execute the script,
 ```
-$ python3 ~/mnist-from-scratch/src/learning.py sample 4000 0.1 100 0 -debug -save
+$ python ~/mnist-from-scratch/src/learning.py sample 4000 0.1 100 0 -debug -save
 ```
 
 Here is keywords arguments and optional arguments.  
@@ -69,7 +69,7 @@ optional arguments:
 - Confusion Matrix  
 ![sample_noise0%_cm_graph.jpg](https://qiita-image-store.s3.amazonaws.com/0/324488/b32c62de-1c2b-376d-af21-65bd347a2fae.jpeg)
 
-- Accuracy with variable noise percentage  
+- Accuracy with variable noise percentages  
 ![sample_compare.jpg](https://qiita-image-store.s3.amazonaws.com/0/324488/53ce5869-b738-b4d9-fc40-78f528bf0896.jpeg)
 
 - Visualization of W1  
