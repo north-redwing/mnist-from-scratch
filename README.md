@@ -71,7 +71,7 @@ keywords arguments:
   noiose_per_max       max noise percentage.
   
 optional arguments:
-  -debug print         debug mode
+  -debug               print debug mode
   -save                save parameters, graphs, arrays
  ```
 
