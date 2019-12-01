@@ -34,6 +34,21 @@ Execute the script,
 python ~/mnist-from-scratch/src/make_arr.py
 ```
 
+### Add Noise to dataset as preprocessing
+Excute the script,
+```
+python ~/mnist-from-scratch/src/make_noise.py
+```
+
+You will get NumPy array as a npy extension like below in `~/mnist/data/arr/`.
+```
+arr
+├── test_X_noise0%.npy
+├── test_T.np
+├── train_X_noise0%.npy
+└── train_T.npy
+```
+
 ### Learning
 Execute the script,
 ```
@@ -41,7 +56,8 @@ $ python ~/mnist-from-scratch/src/learning.py sample 4000 0.1 100 0 -debug -save
 ```
 
 Here is keywords arguments and optional arguments.  
-Note:  
+
+**Note**:  
 You will train on MNIST dataset with noise from 1% to noise_per_max, every 5%.  
 If noise_per_max is nonzero, then you will train on MNIST dataset without noise.
 
@@ -58,6 +74,12 @@ optional arguments:
   -save                save parameters, graphs, arrays
  ```
 
+### Check noise immunity
+If you have trained on MNIST dataset with noise from 1% to 25%, every 5%, then you should check noise immunity.  
+Execute the script,
+```
+$ python ~/mnist-from-scratch/src/compare.py 
+```
 
 ## Results
 - Accuracy  
