@@ -1,4 +1,3 @@
-#!/Users/YujiNarita/.pyenv/shims/python3
 # -*- coding: utf-8 -*-
 
 from func import load_mnist
