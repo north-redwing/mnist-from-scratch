@@ -34,12 +34,6 @@ Execute the script,
 python ~/mnist-from-scratch/src/make_arr.py
 ```
 
-### Add Noise to dataset as preprocessing
-Excute the script,
-```
-python ~/mnist-from-scratch/src/make_noise.py
-```
-
 You will get NumPy array as a npy extension like below in `~/mnist/data/arr/`.
 ```
 arr
@@ -48,6 +42,13 @@ arr
 ├── train_X_noise0%.npy
 └── train_T.npy
 ```
+
+### Add Noise to dataset as preprocessing
+Excute the script,
+```
+python ~/mnist-from-scratch/src/make_noise.py
+```
+
 
 ### Learning
 Execute the script,
